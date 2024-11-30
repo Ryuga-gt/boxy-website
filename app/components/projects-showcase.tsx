@@ -7,33 +7,33 @@ import { ArrowUpRight } from 'lucide-react'
 
 const projects = [
   {
-    id: 'pushkin',
+    id: 'royal',
     title: 'ROYAL',
     image: '/images/Bedroom.jpg',
     description: 'Luxury apartment design with a royal touch'
   },
   {
-    id: 'yacht-club',
+    id: 'modern',
     title: 'MODERN',
     image: '/images/kitchen3.jpg',
     description: 'Modern Kitchen interior with a perfect balance of functionality and aesthetics'
   },
   {
-    id: 'avatar',
+    id: 'fusion',
     title: 'FUSION',
     image: '/images/BedWithStudy.jpg',
     description: 'Realized interior design of apartments with an work table and a comfortable bed with modern design'
   },
   {
-    id: 'marine-28',
+    id: 'hero',
     title: 'HERO ELEMENT',
     image: '/images/Drawing.jpg',
     description: 'Contemporary marine-themed TV-Panel as a star element of the living room.'
   },
   {
-    id: 'samurai',
+    id: 'mini',
     title: 'MINIMALISIT',
-    image: '/images/Bookshelf.jpg',
+    image: '/images/wow.jpg',
     description: 'Bookshelf next to an in-room low base temple.'
   }
 ]
@@ -106,13 +106,13 @@ export function ProjectsShowcase() {
                     className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent"
                   >
                     <h3 className="text-3xl font-bold mb-4">{project.title}</h3>
-                    <p className="text-lg mb-4 max-w-xl">{project.description}</p>
+                    <p className="text-lg mb-16 max-w-xl">{project.description}</p>
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       className="flex items-center gap-2 text-[#FF4500] hover:text-[#FF4500]/80 transition-colors"
                     >
-                      View Project <ArrowUpRight className="w-4 h-4" />
+                      View Project <ArrowUpRight className="w-4 h-16" />
                     </motion.button>
                   </motion.div>
                 )}
