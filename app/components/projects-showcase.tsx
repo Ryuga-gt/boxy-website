@@ -106,13 +106,13 @@ export function ProjectsShowcase() {
                     className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent"
                   >
                     <h3 className="text-3xl font-bold mb-4">{project.title}</h3>
-                    <p className="text-lg mb-4 max-w-xl">{project.description}</p>
+                    <p className="text-lg mb-16 max-w-xl">{project.description}</p>
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       className="flex items-center gap-2 text-[#FF4500] hover:text-[#FF4500]/80 transition-colors"
                     >
-                      View Project <ArrowUpRight className="w-4 h-4" />
+                      View Project <ArrowUpRight className="w-4 h-16" />
                     </motion.button>
                   </motion.div>
                 )}
@@ -125,7 +125,7 @@ export function ProjectsShowcase() {
       {/* Bottom bar */}
       <div className="absolute bottom-0 left-0 right-0 bg-[#FF4500] py-4 px-8 text-center">
         <button className="text-white hover:opacity-80 transition-opacity">
-          More projects
+          DESIGNS
         </button>
       </div>
     </section>

@@ -31,8 +31,8 @@ export function Navigation() {
         <Link href="/about" className="text-sm hover:text-[#FF4500] transition-colors">
           About us
         </Link>
-        <Link href="/cost" className="text-sm hover:text-[#FF4500] transition-colors">
-          Cost
+        <Link href="/login" className="text-sm hover:text-[#FF4500] transition-colors">
+          Login
         </Link>
       </motion.div>
 
@@ -59,15 +59,15 @@ export function Navigation() {
               <Link href="/about" className="text-sm hover:text-[#FF4500] transition-colors">
                 About us
               </Link>
-              <Link href="/cost" className="text-sm hover:text-[#FF4500] transition-colors">
-                Cost
+              <Link href="/Login" className="text-sm hover:text-[#FF4500] transition-colors">
+                Login
               </Link>
             </div>
             <Link 
               href="/contact" 
               className="bg-[#FF4500] px-6 py-2 rounded-full text-sm text-white hover:bg-[#FF4500]/90 transition-colors"
             >
-              Request a SP
+              Book a Consultation!
             </Link>
           </div>
         </div>

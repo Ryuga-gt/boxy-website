@@ -1,6 +1,7 @@
 import { ScrollSections } from './components/scroll-sections'
 import { Navigation } from './components/navigation'
 import { ProjectsShowcase } from './components/projects-showcase'
+import { Footer } from './components/footer'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navigation />
       <ScrollSections />
       <ProjectsShowcase />
+      <Footer/>
     </main>
   )
 }
