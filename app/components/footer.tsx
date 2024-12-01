@@ -60,9 +60,6 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-xs text-gray-400">© 2024 BOXY BuildCon, All Rights Reserved</p>
-          <Link href="/privacy-policy" className="text-xs text-gray-400 hover:text-[#FF4500] transition-colors">
-            Privacy Policy
-          </Link>
           <p className="text-xs text-gray-400">
             {' '}
             <Link href="#" className="hover:text-[#FF4500] transition-colors">
