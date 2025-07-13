@@ -25,7 +25,7 @@ export function Navigation() {
         style={{ opacity: topNavOpacity }}
         className="fixed left-8 top-8 z-50 flex flex-col space-y-4"
       >
-        <Link href="/portfolio" className="text-sm hover:text-[#FF4500] transition-colors">
+        <Link href="https://drive.google.com/drive/folders/1Yx18TnbnexkUhO3eNifsZPII_v4u6Zr3?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-[#FF4500] transition-colors">
           Portfolio
         </Link>
         <Link href="/about" className="text-sm hover:text-[#FF4500] transition-colors">
@@ -53,13 +53,13 @@ export function Navigation() {
         <div className="backdrop-blur-md bg-black/30 border border-white/10 rounded-full">
           <div className="container mx-auto px-8 py-4 flex items-center justify-between">
             <div className="flex space-x-8">
-              <Link href="/portfolio" className="text-sm hover:text-[#FF4500] transition-colors">
+              <Link href="https://drive.google.com/drive/folders/1Yx18TnbnexkUhO3eNifsZPII_v4u6Zr3?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-[#FF4500] transition-colors">
                 Portfolio
               </Link>
               <Link href="/about" className="text-sm hover:text-[#FF4500] transition-colors">
                 About us
               </Link>
-              <Link href="/Login" className="text-sm hover:text-[#FF4500] transition-colors">
+              <Link href="/login" className="text-sm hover:text-[#FF4500] transition-colors">
                 Login
               </Link>
             </div>
